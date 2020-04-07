@@ -1,0 +1,20 @@
+{
+  "name": "vue-markdown-edit",
+  "version": "0.0.1",
+  "description": "A Markdown editor using codemirror.",
+  "main": "dist/MarkdownEditor.js",
+  "repository": "https://github.com/cloudacy/vue-markdown-edit.git",
+  "author": "Patrick Kuen",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "codemirror": "^5.52.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^0.0.90",
+    "typescript": "^3.8.3"
+  }
+}
