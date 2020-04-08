@@ -5,6 +5,12 @@
   "main": "dist/MarkdownEditor.js",
   "types": "dist/MarkdownEditor.d.ts",
   "repository": "https://github.com/cloudacy/vue-markdown-edit.git",
+  "keywords": [
+    "vue",
+    "markdown",
+    "codemirror",
+    "editor"
+  ],
   "author": "Patrick Kuen",
   "license": "MIT",
   "scripts": {
