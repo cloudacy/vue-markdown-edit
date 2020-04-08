@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A Markdown editor using codemirror.",
   "main": "dist/MarkdownEditor.js",
+  "types": "dist/MarkdownEditor.d.ts",
   "repository": "https://github.com/cloudacy/vue-markdown-edit.git",
   "author": "Patrick Kuen",
   "license": "MIT",
