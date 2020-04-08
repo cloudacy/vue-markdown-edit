@@ -24,9 +24,15 @@ const MarkdownEditor = Vue.extend({
       value: this.value,
     });
 
-    this.editor.on("change", () => {
+    this.editor.on("change", this.onChange);
+  },
+  beforeDestroy() {
+    this.editor?.off("change", this.onChange);
+  },
+  methods: {
+    onChange() {
       this.$emit("input", this.editor?.getValue());
-    });
+    },
   },
   render(h): VNode {
     return h("div", { class: "markdown-editor" });
