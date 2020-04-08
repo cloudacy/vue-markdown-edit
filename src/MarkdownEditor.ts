@@ -1,7 +1,7 @@
 import Vue, { VNode } from "vue";
 import createEditor, { Editor } from "codemirror";
 import "codemirror/mode/markdown/markdown";
-import "../node_modules/codemirror/lib/codemirror.css";
+import "codemirror/lib/codemirror.css";
 import "../styles/MarkdownEditor.css";
 
 const MarkdownEditor = Vue.extend({
