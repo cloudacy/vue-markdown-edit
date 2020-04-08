@@ -1,5 +1,5 @@
 import Vue, { VNode } from "vue";
-import VueMarkdown from "../../dist/MarkdownEditor";
+import MarkdownEditor from "../../dist/MarkdownEditor";
 import MarkdownRender from "vue-markdown-render";
 
 Vue.config.productionTip = false;
@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 const App = Vue.extend({
   name: "App",
   components: {
-    VueMarkdown,
+    MarkdownEditor,
     MarkdownRender,
   },
   data() {
@@ -29,7 +29,7 @@ const App = Vue.extend({
       ),
       this.hide
         ? h()
-        : h("vue-markdown", {
+        : h("markdown-editor", {
             props: { value: this.val },
             on: { input: (val: string) => (this.val = val) },
           }),

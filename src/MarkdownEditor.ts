@@ -17,14 +17,7 @@ const MarkdownEditor = Vue.extend({
       editor: null as Editor | null,
     };
   },
-  // computed: {
-  //   content(): string | undefined {
-  //     const src = this.source;
-  //     return this.md?.render(src);
-  //   }
-  // },
   mounted() {
-    console.log(this.value);
     this.editor = createEditor(this.$el as HTMLElement, {
       mode: "markdown",
       lineNumbers: true,
