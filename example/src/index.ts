@@ -1,17 +1,20 @@
 import Vue, { VNode } from "vue";
 import VueMarkdown from "../../dist/MarkdownEditor";
+import MarkdownRender from "vue-markdown-render";
 
 Vue.config.productionTip = false;
-const x: string = "tes";
 
 const App = Vue.extend({
   name: "App",
   components: {
     VueMarkdown,
+    MarkdownRender,
   },
   data() {
     return {
       i: 0,
+      hide: false,
+      val: "# markdown header\n## subheader\nIt just works!",
     };
   },
   render(h): VNode {
@@ -19,19 +22,18 @@ const App = Vue.extend({
       h(
         "button",
         {
-          on: {
-            click: () => {
-              this.i++;
-            },
-          },
+          attrs: { type: "button" },
+          on: { click: () => (this.hide = !this.hide) },
         },
-        "Increment"
+        "Show/Hide"
       ),
-      h("vue-markdown", {
-        props: {
-          source: `# This is a markdown heading\n## This is your number: ${this.i}`,
-        },
-      }),
+      this.hide
+        ? h()
+        : h("vue-markdown", {
+            props: { value: this.val },
+            on: { input: (val: string) => (this.val = val) },
+          }),
+      h("markdown-render", { props: { source: this.val } }),
     ]);
   },
 });
