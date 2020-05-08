@@ -2,16 +2,16 @@ dependencies:
   codemirror: 5.53.2
   vue: 2.6.11
 devDependencies:
-  '@types/codemirror': 0.0.90
+  '@types/codemirror': 0.0.91
   typescript: 3.8.3
 lockfileVersion: 5.1
 packages:
-  /@types/codemirror/0.0.90:
+  /@types/codemirror/0.0.91:
     dependencies:
       '@types/tern': 0.23.3
     dev: true
     resolution:
-      integrity: sha512-8Z9+tSg27NPRGubbUPUCrt5DDG/OWzLph5BvcDykwR5D7RyZh5mhHG0uS1ePKV1YFCA+/cwc4Ey2AJAEFfV3IA==
+      integrity: sha512-FZcfBNjhVc6slo6RbtbCqYa+KTQa9sykV5OdRLqd3FeMPddVLFuqSR3KNZUbzU9qoEBudBZX0nbItJ52ml37KA==
   /@types/estree/0.0.44:
     dev: true
     resolution:
@@ -38,7 +38,7 @@ packages:
     resolution:
       integrity: sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 specifiers:
-  '@types/codemirror': ^0.0.90
-  codemirror: ^5.52.2
+  '@types/codemirror': ^0.0.91
+  codemirror: ^5.53.2
   typescript: ^3.8.3
   vue: ^2.6.11
