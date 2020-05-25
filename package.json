@@ -17,11 +17,11 @@
     "build": "tsc"
   },
   "dependencies": {
-    "codemirror": "^5.53.2",
+    "codemirror": "^5.54.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@types/codemirror": "^0.0.91",
-    "typescript": "^3.8.3"
+    "@types/codemirror": "^0.0.95",
+    "typescript": "^3.9.3"
   }
 }

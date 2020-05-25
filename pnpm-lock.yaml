@@ -1,17 +1,17 @@
 dependencies:
-  codemirror: 5.53.2
+  codemirror: 5.54.0
   vue: 2.6.11
 devDependencies:
-  '@types/codemirror': 0.0.91
-  typescript: 3.8.3
+  '@types/codemirror': 0.0.95
+  typescript: 3.9.3
 lockfileVersion: 5.1
 packages:
-  /@types/codemirror/0.0.91:
+  /@types/codemirror/0.0.95:
     dependencies:
       '@types/tern': 0.23.3
     dev: true
     resolution:
-      integrity: sha512-FZcfBNjhVc6slo6RbtbCqYa+KTQa9sykV5OdRLqd3FeMPddVLFuqSR3KNZUbzU9qoEBudBZX0nbItJ52ml37KA==
+      integrity: sha512-E7w4HS8/rR7Rxkga6j68n3/Mi4BJ870/OJJKRqytyWiM659KnbviSng/NPfM/FOjg7YL+5ruFF69FqoLChnPBw==
   /@types/estree/0.0.44:
     dev: true
     resolution:
@@ -22,23 +22,23 @@ packages:
     dev: true
     resolution:
       integrity: sha512-imDtS4TAoTcXk0g7u4kkWqedB3E4qpjXzCpD2LU5M5NAXHzCDsypyvXSaG7mM8DKYkCRa7tFp4tS/lp/Wo7Q3w==
-  /codemirror/5.53.2:
+  /codemirror/5.54.0:
     dev: false
     resolution:
-      integrity: sha512-wvSQKS4E+P8Fxn/AQ+tQtJnF1qH5UOlxtugFLpubEZ5jcdH2iXTVinb+Xc/4QjshuOxRm4fUsU2QPF1JJKiyXA==
-  /typescript/3.8.3:
+      integrity: sha512-Pgf3surv4zvw+KaW3doUU7pGjF0BPU8/sj7eglWJjzni46U/DDW8pu3nZY0QgQKUcICDXRkq8jZmq0y6KhxM3Q==
+  /typescript/3.9.3:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+      integrity: sha512-D/wqnB2xzNFIcoBG9FG8cXRDjiqSTbG2wd8DMZeQyJlP1vfTkIxH4GKveWaEBYySKIg+USu+E+EDIR47SqnaMQ==
   /vue/2.6.11:
     dev: false
     resolution:
       integrity: sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 specifiers:
-  '@types/codemirror': ^0.0.91
-  codemirror: ^5.53.2
-  typescript: ^3.8.3
+  '@types/codemirror': ^0.0.95
+  codemirror: ^5.54.0
+  typescript: ^3.9.3
   vue: ^2.6.11
