@@ -1,13 +1,19 @@
-import Vue from "vue";
-import createEditor from "codemirror";
-import "codemirror/mode/markdown/markdown";
-import "codemirror/lib/codemirror.css";
-import "../styles/MarkdownEditor.css";
-declare const MarkdownEditor: import("vue/types/vue").ExtendedVue<Vue, {
-    editor: createEditor.Editor | null;
-}, {
-    onChange(): void;
+import createEditor from 'codemirror';
+import 'codemirror/mode/markdown/markdown';
+import 'codemirror/lib/codemirror.css';
+import '../styles/MarkdownEditor.css';
+declare const MarkdownEditor: import("vue").DefineComponent<{
+    modelValue: {
+        type: StringConstructor;
+        required: true;
+    };
 }, unknown, {
-    value: string;
-}>;
+    editor: createEditor.Editor | null;
+}, {}, {
+    onChange(): void;
+}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
+    modelValue?: unknown;
+} & {
+    modelValue: string;
+} & {}>, {}>;
 export default MarkdownEditor;
