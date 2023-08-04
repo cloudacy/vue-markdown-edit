@@ -642,8 +642,8 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
 
-  /markdown-it@12.3.0:
-    resolution: {integrity: sha512-T345UZZ6ejQWTjG6PSEHplzNy5m4kF6zvUpHVDv8Snl/pEU0OxIK0jGg8YLVNwJvT8E0YJC7/2UvssJDk/wQCQ==}
+  /markdown-it@12.3.2:
+    resolution: {integrity: sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -654,7 +654,7 @@ packages:
     dev: false
 
   /mdurl@1.0.1:
-    resolution: {integrity: sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=}
+    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: false
 
   /nanoid@3.3.6:
@@ -1016,7 +1016,7 @@ packages:
   /vue-markdown-render@2.0.0:
     resolution: {integrity: sha512-t11tT8PdOe43GGDq7LSJVzy6hVPw8JX2YI5IXKEakfTZnHxSw/8pHeLrihCHxn4KP3+Xz+pxeM5LxUNpHFjn8Q==}
     dependencies:
-      markdown-it: 12.3.0
+      markdown-it: 12.3.2
       vue: 3.2.26
     dev: false
 
