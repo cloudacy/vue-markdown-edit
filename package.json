@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "codemirror": "^5.65.0",
-    "vue": "^3.2.25"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
     "@babel/types": "^7.16.0",

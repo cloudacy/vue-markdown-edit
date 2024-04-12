@@ -11,9 +11,10 @@ declare const MarkdownEditor: import("vue").DefineComponent<{
     editor: createEditor.Editor | null;
 }, {}, {
     onChange(): void;
-}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
-    modelValue?: unknown;
-} & {
-    modelValue: string;
-} & {}>, {}>;
+}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, import("vue").PublicProps, Readonly<import("vue").ExtractPropTypes<{
+    modelValue: {
+        type: StringConstructor;
+        required: true;
+    };
+}>>, {}, {}>;
 export default MarkdownEditor;
